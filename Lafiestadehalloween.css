@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/9191/live/f9653340-7806-11ee-bcbc-b524174ba5c7.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Fantasy', 'papirus';
+}
+
+div {
+    text-decoration: none;
+    color: rgb(231, 7, 7);
+    margin: 0 auto;
+    width: 300px;
+    font-size: 18px;
+    background-color:rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 5px, 5px, 5px, #ffffff;
+    text-align: center;
+
+} 
+input,
+textarea {
+    border: 10px;
+    outline: rgb(0, 0, 0);
+}
+
+.select {
+    border: solid 2px #0b068d;
+    padding: 10px;
+}
+
+.select:focus {
+    border-color: #0b068d;
+}
